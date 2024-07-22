@@ -26,6 +26,7 @@ print(f"Against B:{format_data(account_b)}.")
 
 
 # ask user for a guess
+guess = input("Who has more followers? Type 'A' or 'B': ").lower
 
 # check if users is correct 
 # get follower count of each account 
